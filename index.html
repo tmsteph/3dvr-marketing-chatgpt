@@ -1,0 +1,33 @@
+import Head from 'next/head';
+
+export default function Home() {
+  return (
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
+      <Head>
+        <title>Join 3dvr.tech 🚀</title>
+        <meta name="description" content="Subscribe to 3dvr.tech for tech support, web hosting, and open-source innovation." />
+      </Head>
+
+      <div className="max-w-2xl text-center">
+        <h1 className="text-4xl font-bold mb-4">🚀 Join 3dvr.tech Today!</h1>
+        <p className="text-lg mb-6">For just <span className="text-yellow-400 font-semibold">$20/month</span>, get:</p>
+        <ul className="list-disc text-left mx-auto text-lg space-y-2 mb-6">
+          <li>✅ Personal tech support (web, Linux, apps, AV, and more)</li>
+          <li>✅ Web hosting & app building</li>
+          <li>✅ Behind-the-scenes access to 3dvr.tech projects</li>
+          <li>✅ Early access to TommyOS & open-source development</li>
+        </ul>
+        <p className="text-lg">Help fund open-source innovation & self-hosting solutions!</p>
+
+        <a
+          href="https://buy.stripe.com/9AQ7uvfne7FZb1SaEE"
+          className="mt-6 px-6 py-3 text-lg font-bold bg-yellow-500 hover:bg-yellow-400 text-gray-900 rounded-lg transition"
+        >
+          💳 Subscribe Now
+        </a>
+
+        <p className="mt-4 text-sm text-gray-400">Cancel anytime. No risk.</p>
+      </div>
+    </div>
+  );
+}
